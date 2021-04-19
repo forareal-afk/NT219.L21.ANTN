@@ -1,0 +1,39 @@
+SE (Searchable Encryption) is a perfect way to keep users’ 
+sensitive data safe besides keyword-search ability on the 
+server-side. SE allows searching on encrypted data without leaking information in the original data. The two main 
+branches of SE are SSE and PEKS (Bösch et al. 2014; Kim 
+et al. 2018; Wang et al. 2016). SSE (Searchable Symmetric 
+Encryption) is the symmetric type of encryption that uses a 
+private key for each user. In this manner, the user having the 
+private key is able to produce encrypted documents and to 
+create trapdoors for search. On the other hand, PEKS (Public 
+key Encryption with Keyword Search) is the asymmetric 
+type of encryption that uses a public key for all the users, 
+but only the user with the private key can create trapdoors 
+for search.
+Searchable Symmetric Encryption (SSE) allows the user 
+to store the data in an encrypted form on a semi-honest 
+server/storage provider (e.g., a cloud provider), such that this 
+encrypted data remains searchable without decrypting and 
+without leaking the original data content or the words being 
+searched for to the server. In most cases, this is achieved by 
+introducing a searchable encrypted index, which is stored 
+together with the encrypted data (e. g., documents) on a 
+server. To enable the server to query the data, the client 
+creates a trapdoor that allows the server to do the search on 
+behalf of the client.
+This current paper is interested in a searchable symmetric 
+encryption scheme scenario shown in Fig. 1. The scenario 
+includes mainly four entities: data owner, data user, cloud 
+service provider, and key generator (Bösch et al. 2014; 
+Mohamad et al. 2019; Wang et al. 2016). In this scenario, 
+a data owner wants to store a set of documents on a cloud 
+server because of the limitation of storage resources (or any 
+other reasons). As any server has a problem with privacy, 
+the owner has to encrypt the documents before uploading 
+them. The data and metadata are encrypted with a cryptographic scheme that enables searching capability. If either 
+the data owner or a licensed user needs to get specifc documents, the user will need to submit some information in 
+terms of query keywords to the cloud service provider. Upon 
+receiving the encrypted search queries from the data user, 
+the cloud service provider tests the encrypted queries in the 
+cloud storage.
