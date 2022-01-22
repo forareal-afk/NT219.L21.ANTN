@@ -1,0 +1,35 @@
+Task 6: Collision and length extension attacks on Hash functions
+Required:
+6.1 MD5 collision attacks
++) Two collision messages have the same prefix string
+ - Generate yourself prefix string
+ - Compute the two output files that have the same MD5 digest (using hashclash tool)
++) Two different C++ programs but have the same MD5;
+ - Code yourself two short C++ programs
+ - Compiler your codes code1, code2
+ - Run hashclash to generate two program with the same MD5 digest
+Note: It takes long time to generate the output.
+6.2 Length extension attacks on MAC using SHA256 in form: SHA256(k||m), k is secret key
+ - This one for bonus 10/100 points (does not require all students)
++) Coding self programs that can
+ - Automatic compute the padded part for any input (k||m);
+ - Compute the digest using length extension attacks with any extend string;
+
+
+
+Nhiệm vụ 6: Các cuộc tấn công va chạm và mở rộng độ dài trên các hàm Hash
+Cần thiết:
+6.1 Các cuộc tấn công xung đột MD5
++) Hai thông báo xung đột có cùng chuỗi tiền tố
+  - Tự tạo chuỗi tiền tố
+  - Tính toán hai tệp đầu ra có cùng thông báo MD5 (sử dụng công cụ hashclash)
++) Hai chương trình C ++ khác nhau nhưng có cùng MD5;
+  - Tự viết mã hai chương trình C ++ ngắn
+  - Biên dịch mã của bạn code1, code2
+  - Chạy hashclash để tạo hai chương trình có cùng thông báo MD5
+Lưu ý: Phải mất nhiều thời gian để tạo ra đầu ra.
+6.2 Các cuộc tấn công mở rộng độ dài trên MAC sử dụng SHA256 ở dạng: SHA256 (k || m), k là khóa bí mật
+  - Điều này cho phần thưởng 10/100 điểm (không yêu cầu tất cả học sinh)
++) Tự mã hóa các chương trình có thể
+  - Tự động tính toán phần đệm cho bất kỳ đầu vào nào (k || m);
+  - Tính toán thông báo bằng cách sử dụng các cuộc tấn công mở rộng độ dài với bất kỳ chuỗi mở rộng nào;

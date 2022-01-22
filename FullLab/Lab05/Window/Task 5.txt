@@ -1,0 +1,15 @@
+Task 5: Hash Functions
+Required:
++) Separation all hash functions using switch case
+SHA224, SHA256, SHA384, SHA512, SHA3-224, SHA3-256, SHA3-384, SHA3-512, SHAKE128,SHAKE256 
++) Plaintext:
+    - Support Vietnamese (UTF-16)
+    - Input from screen or from file (using switch case)
++) Digest:
+    - may choose digest output length d for SHAKE128,SHAKE256 from screen;
+    - digest should be encoded as hex string;
++) OS platforms
+  - Your code can compile on both Windows and Linux;
++) Performance
+  - Report your hardware resources
+  - Report computation performance for all operations on both Windows and Linux 

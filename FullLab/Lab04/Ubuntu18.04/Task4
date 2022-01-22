@@ -1,0 +1,19 @@
+Nhiệm vụ 4: Chữ ký điện tử dựa trên ECC với cryptoPP
+Cần thiết:
+Done +) Thuật toán: ECDSA
+Done +) Tách chức năng ký và chức năng xác minh (sử dụng trường hợp chuyển đổi) 
++) chức năng ký kết; xác minh chức năng
+     - Có thể áp dụng từ thư viện hoặc tính toán trực tiếp từ các công thức.
+     - Triển khai nhỏ giọt từ các công thức sẽ nhận được 10/100 điểm thưởng.
+Done +) Thông điệp cần ký:
+     Done - Đầu vào từ tệp
+     Done - Hỗ trợ tiếng Việt (sử dụng UTF-16)
+Done +) Đường cong ECC: nên chọn từ các đường cong chuẩn
+Done +) Khóa bí mật / khóa công khai
+     Done - Các khóa load từ các tệp (cho cả hai chức năng)
+     Done - Khóa công khai:> = 256 bit
++) Nền tảng hệ điều hành
+   - Mã của bạn có thể biên dịch trên cả Windows và Linux;
++) Hiệu suất
+   - Báo cáo tài nguyên phần cứng của bạn
+   - Báo cáo hiệu suất tính toán cho tất cả các hoạt động trên cả Windows và Linux

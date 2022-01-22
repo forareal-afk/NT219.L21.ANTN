@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "map": "cpp",
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "xiosbase": "cpp"
+    }
+}
